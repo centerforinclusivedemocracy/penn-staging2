@@ -7,7 +7,7 @@
 // exceptlayers = skip these layers when loading the data profile, for counties to opt-out from individual layers
 const PARTICIPATING_COUNTIES = [
   { countyfp: "001", name: "Adams", profile: 'fullmodel', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-{ countyfp: "003", name: "Allegheny", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
+{ countyfp: "003", name: "Allegheny", profile: 'fullmodel', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
 { countyfp: "005", name: "Armstrong", profile: 'fullmodel', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
 { countyfp: "007", name: "Beaver", profile: 'fullmodel', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
 { countyfp: "011", name: "Berks", profile: 'fullmodel', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
@@ -24,7 +24,7 @@ const PARTICIPATING_COUNTIES = [
 { countyfp: "039", name: "Crawford", profile: 'fullmodel', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
 { countyfp: "041", name: "Cumberland", profile: 'fullmodel', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
 { countyfp: "043", name: "Dauphin", profile: 'fullmodel', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-{ countyfp: "045", name: "Delaware", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
+{ countyfp: "045", name: "Delaware", profile: 'fullmodel', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
 { countyfp: "049", name: "Erie", profile: 'fullmodel', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
 { countyfp: "051", name: "Fayette", profile: 'fullmodel', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
 { countyfp: "055", name: "Franklin", profile: 'fullmodel', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
