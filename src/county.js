@@ -25,6 +25,10 @@ function initCountyInfo () {
     // fill in the county name into the title bar
     $('#sidebar > h1').text(`${COUNTYINFO.name} County`);
 
+    if (COUNTYINFO.profile === "fullmodelDB") {
+        $('#suggestedHeader').text("Suggested Voting and Drop Box Locations");
+    }
+
     // if there is an Out Of Order message, fill in the explanation why the county is broken
     if (COUNTYINFO.outoforder) $('#outoforder').text(COUNTYINFO.outoforder);
     else $('#outoforder').remove();

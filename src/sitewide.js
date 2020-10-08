@@ -10,46 +10,46 @@ const PARTICIPATING_COUNTIES = [
   { countyfp: "003", name: "Allegheny", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "005", name: "Armstrong", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "007", name: "Beaver", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "011", name: "Berks", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "011", name: "Berks", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "013", name: "Blair", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "015", name: "Bradford", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "017", name: "Bucks", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "017", name: "Bucks", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "019", name: "Butler", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "021", name: "Cambria", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "025", name: "Carbon", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "027", name: "Centre", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "029", name: "Chester", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "033", name: "Clearfield", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "027", name: "Centre", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "029", name: "Chester", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "033", name: "Clearfield", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "037", name: "Columbia", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "039", name: "Crawford", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "041", name: "Cumberland", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "043", name: "Dauphin", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "045", name: "Delaware", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "049", name: "Erie", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "049", name: "Erie", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "051", name: "Fayette", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "055", name: "Franklin", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "063", name: "Indiana", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "069", name: "Lackawanna", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "071", name: "Lancaster", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "071", name: "Lancaster", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "073", name: "Lawrence", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "075", name: "Lebanon", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "077", name: "Lehigh", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "077", name: "Lehigh", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "079", name: "Luzerne", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "081", name: "Lycoming", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "085", name: "Mercer", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "089", name: "Monroe", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "091", name: "Montgomery", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "095", name: "Northampton", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "089", name: "Monroe", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "091", name: "Montgomery", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "095", name: "Northampton", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "097", name: "Northumberland", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "101", name: "Philadelphia", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "103", name: "Pike", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "107", name: "Schuylkill", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "111", name: "Somerset", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "121", name: "Venango", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "121", name: "Venango", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "125", name: "Washington", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "127", name: "Wayne", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "129", name: "Westmoreland", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "133", name: "York", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "133", name: "York", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
   
   ];
   
@@ -178,7 +178,7 @@ const PARTICIPATING_COUNTIES = [
   
   DATA_LAYERS.four_day_sites = {
       id: 'four_day_sites',
-      title: "Suggested Areas for 4 Day Vote Centers",
+      title: "Suggested Areas for Election Day Voting Locations",
       csvfile: 'model_files/four_day_sites.csv',
       circle: { radius: 400, opacity: 0.8, color: 'black', weight: 1, fillColor: 'quantile', fillOpacity: 0.8 }, // see countyfp == '101' data hack to use smaller radius for some counties
       quantilefield: 'center_score', quantilecolors: SCORING_COLOR_RAMP, breaksource: 'sitescores', // because fillColor == quantile
@@ -188,7 +188,7 @@ const PARTICIPATING_COUNTIES = [
   };
   DATA_LAYERS.eleven_day_sites = {
       id: 'eleven_day_sites',
-      title: "Suggested Areas for 11 Day Vote Centers",
+      title: "Suggested Areas for Early Voting Locations",
       csvfile: 'model_files/eleven_day_sites.csv',
       circle: { radius: 400, opacity: 0.8, color: 'black', weight: 1, fillColor: 'quantile', fillOpacity: 0.8 }, // see countyfp == '101' data hack to use smaller radius for some counties
       quantilefield: 'center_score', quantilecolors: SCORING_COLOR_RAMP, breaksource: 'sitescores', // because fillColor == quantile
@@ -218,7 +218,7 @@ const PARTICIPATING_COUNTIES = [
   };
   DATA_LAYERS.additional_sites_model = {
       id: 'additional_sites_model',
-      title: "Vote Center Options Based on Model",
+      title: "Additional Voting Location Options Based on Model",
       csvfile: 'model_files/additional_sites_model.csv',
       circle: { radius: 400, opacity: 0.8, color: 'blue', weight: 1, fillColor: 'quantile', fillOpacity: 0.8 },
       quantilefield: 'center_score', quantilecolors: SCORING_COLOR_RAMP, breaksource: 'sitescores', // because fillColor == quantile
@@ -228,7 +228,7 @@ const PARTICIPATING_COUNTIES = [
   };
   DATA_LAYERS.additional_sites_distance = {
       id: 'additional_sites_distance',
-      title: "Additional Vote Center Options Based on Distance",
+      title: "Additional Voting Location Options Based on Distance",
       csvfile: 'model_files/additional_sites_distance.csv',
       circle: { radius: 400, opacity: 0.8, color: 'blue', weight: 1, fillColor: 'quantile', fillOpacity: 0.8 },
       quantilefield: 'center_score', quantilecolors: SCORING_COLOR_RAMP, breaksource: 'sitescores', // because fillColor == quantile
@@ -464,6 +464,30 @@ const PARTICIPATING_COUNTIES = [
           DATA_LAYERS.pripoll2020,DATA_LAYERS.poi_govish, DATA_LAYERS.poi_misc, DATA_LAYERS.poi,
       ],
   };
+
+  DATA_PROFILES.fullmodelDB = {
+    suggestedareas: [
+        DATA_LAYERS.four_day_sites, DATA_LAYERS.eleven_day_sites, DATA_LAYERS.dropbox_sites, DATA_LAYERS.all_sites_scored,
+    ],
+    additionalareas: [
+        DATA_LAYERS.additional_sites_model, DATA_LAYERS.additional_sites_distance,
+    ],
+    sitingcriteria: [
+        DATA_LAYERS.transit_stops,
+        DATA_LAYERS.cvapdens, DATA_LAYERS.job_dens,
+        DATA_LAYERS.tot_elignonreg_prc,
+        DATA_LAYERS.prcdisabled, DATA_LAYERS.prc_nonengprof, DATA_LAYERS.prc_caraccess_final, DATA_LAYERS.prc_pov_final, DATA_LAYERS.prc_youth_final,
+        DATA_LAYERS.pollvoter_dens,
+        DATA_LAYERS.popdens,
+        DATA_LAYERS.vbm_rate_tot, DATA_LAYERS.vbm_rate_asn, DATA_LAYERS.vbm_rate_lat, DATA_LAYERS.vbm_rate_youth,
+    ],
+    populationdata: [
+        DATA_LAYERS.prc_black, DATA_LAYERS.prc_asian, DATA_LAYERS.prc_latino, DATA_LAYERS.prc_white,
+    ],
+    pointsofinterest: [
+        DATA_LAYERS.pripoll2020,DATA_LAYERS.poi_govish, DATA_LAYERS.poi_misc, DATA_LAYERS.poi,
+    ],
+};
   
   DATA_PROFILES.lite = Object.assign({}, DATA_PROFILES.fullmodel);
   DATA_PROFILES.lite.suggestedareas = [];
