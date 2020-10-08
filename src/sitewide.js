@@ -41,7 +41,7 @@ const PARTICIPATING_COUNTIES = [
   { countyfp: "091", name: "Montgomery", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "095", name: "Northampton", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "097", name: "Northumberland", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "101", name: "Philadelphia", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "101", name: "Philadelphia", profile: 'fullmodel', outoforder:"", datafootnote: " Due to the small geographic size of Philadelphia county, siting is provided for quarter-mile grid squares.", exceptlayers: [] },
   { countyfp: "103", name: "Pike", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "107", name: "Schuylkill", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "111", name: "Somerset", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
