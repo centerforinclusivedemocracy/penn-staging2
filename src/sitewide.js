@@ -10,7 +10,7 @@ const PARTICIPATING_COUNTIES = [
   { countyfp: "003", name: "Allegheny", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "005", name: "Armstrong", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "007", name: "Beaver", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
-  { countyfp: "011", name: "Berks", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
+  { countyfp: "011", name: "Berks", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "013", name: "Blair", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "015", name: "Bradford", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "017", name: "Bucks", profile: 'fullmodelDB', outoforder:"", datafootnote: "", exceptlayers: [] },
