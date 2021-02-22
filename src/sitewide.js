@@ -255,156 +255,156 @@ const PARTICIPATING_COUNTIES = [
       downloadfile: 'point_files/primary_votecenters_2020.csv',
   };
   DATA_LAYERS.transit_stops = {
-      id: 'transit_stops',
-      title: "Transit Stops",
-      csvfile: 'point_files/transit_stops_latlononly.csv',
-      circle: { color: 'darkred', fillColor: 'darkred', fillOpacity: 0.6, radius: 10, opacity: 0.6, },
-      downloadfile: 'point_files/transit_stops.csv',
-  };
-  DATA_LAYERS.cvapdens = {
-      id: 'cvapdens',
-      title: "County Percentage of Voting Age Citizens",
-      scoresource: 'indicatordata', scorefield:  'cvapdens',
-      quantilefield: 'cvapdens', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.job_dens = {
-      id: 'job_dens',
-      title: "County Worker Percentage",
-      scoresource: 'indicatordata', scorefield:  'job_dens',
-      quantilefield: 'job_dens', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.tot_elignonreg_prc = {
-      id: 'tot_elignonreg_prc',
-      title: "Eligible Non-Registered Voter Rate",
-      scoresource: 'indicatordata', scorefield:  'tot_elignonreg_prc_final',
-      quantilefield: 'tot_elignonreg_prc_final' , quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.prcdisabled = {
-      id: 'prcdisabled',
-      title: "Percent Disabled Population",
-      scoresource: 'indicatordata', scorefield:  'prcdisabled_final',
-      quantilefield: 'prcdisabled_final', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.prc_nonengprof = {
-      id: 'prc_nonengprof',
-      title: "Percent Limited English Proficient Population",
-      scoresource: 'indicatordata', scorefield:  'prc_nonengprof_final',
-      quantilefield: 'prc_nonengprof_final', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.prc_caraccess_final = {
-      id: 'prc_caraccess_final',
-      title: "Percent of Population with Vehicle Access",
-      scoresource: 'indicatordata', scorefield:  'prc_caraccess_final',
-      quantilefield: 'prc_caraccess_final', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.prc_pov_final = {
-      id: 'prc_pov_final',
-      title: "Percent of the Population in Poverty",
-      scoresource: 'indicatordata', scorefield:  'prc_pov_final',
-      quantilefield: 'prc_pov_final', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.prc_youth_final = {
-      id: 'prc_youth_final',
-      title: "Percent of the Population Youth",
-      scoresource: 'indicatordata', scorefield:  'prc_youth_final',
-      quantilefield: 'prc_youth_final', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.pollvoter_dens = {
-      id: 'pollvoter_dens',
-      title: "Polling Place Voter Percentage",
-      scoresource: 'indicatordata', scorefield:  'pollvoter_dens',
-      quantilefield: 'pollvoter_dens', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.popdens = {
-      id: 'popdens',
-      title: "Population Density (per sq km)",
-      scoresource: 'indicatordata', scorefield:  'popdens',
-      quantilefield: 'popdens', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'integer',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.vbm_rate_tot = {
-      id: 'vbm_rate_tot',
-      title: "2016 Vote by Mail Rate (Total)",
-      scoresource: 'indicatordata', scorefield:  'vbm_rate_tot',
-      quantilefield: 'vbm_rate_tot', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.vbm_rate_asn = {
-      id: 'vbm_rate_asn',
-      title: "2016 Vote by Mail Rate (Asian-American)",
-      scoresource: 'indicatordata', scorefield:  'vbm_rate_asn',
-      quantilefield: 'vbm_rate_asn', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.vbm_rate_lat = {
-      id: 'vbm_rate_lat',
-      title: "2016 Vote by Mail Rate (Latino)",
-      scoresource: 'indicatordata', scorefield:  'vbm_rate_lat',
-      quantilefield: 'vbm_rate_lat', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.vbm_rate_youth = {
-      id: 'vbm_rate_youth',
-      title: "2016 Vote by Mail Rate (Youth)",
-      scoresource: 'indicatordata', scorefield:  'vbm_rate_youth',
-      quantilefield: 'vbm_rate_youth', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.prc_black = {
-      id: 'prc_black',
-      title: "Percent African-American Population",
-      scoresource: 'indicatordata', scorefield: 'prc_black',
-      quantilefield: 'prc_black', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.prc_asian = {
-      id: 'prc_asian',
-      title: "Percent Asian-American Population",
-      scoresource: 'indicatordata', scorefield: 'prc_asian',
-      quantilefield: 'prc_asian', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.prc_latino = {
-      id: 'prc_latino',
-      title: "Percent Latino Population",
-      scoresource: 'indicatordata', scorefield: 'prc_latino',
-      quantilefield: 'prc_latino', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
-  DATA_LAYERS.prc_white = {
-      id: 'prc_white',
-      title: "Percent White Population",
-      scoresource: 'indicatordata', scorefield: 'prc_white',
-      quantilefield: 'prc_white', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
-      legendformat: 'percent',
-      radiogroup: 'tractchoropleths',
-  };
+    id: 'transit_stops',
+    title: "Transit Stops",
+    csvfile: 'point_files/transit_stops_latlononly.csv',
+    circle: { color: 'darkred', fillColor: 'darkred', fillOpacity: 0.6, radius: 10, opacity: 0.6, },
+    downloadfile: 'point_files/transit_stops.csv',
+};
+DATA_LAYERS.cvapdens = {
+    id: 'cvapdens',
+    title: "Percent of County Voting Age Citizens",
+    scoresource: 'indicatordata', scorefield:  'cvapdens',
+    quantilefield: 'cvapdens', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.job_dens = {
+    id: 'job_dens',
+    title: "Percent of County Workers",
+    scoresource: 'indicatordata', scorefield:  'job_dens',
+    quantilefield: 'job_dens', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.tot_elignonreg_prc = {
+    id: 'tot_elignonreg_prc',
+    title: "Eligible Non-Registered Voter Rate",
+    scoresource: 'indicatordata', scorefield:  'tot_elignonreg_prc_final',
+    quantilefield: 'tot_elignonreg_prc_final' , quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.prcdisabled = {
+    id: 'prcdisabled',
+    title: "Disabilities Percent of Population",
+    scoresource: 'indicatordata', scorefield:  'prcdisabled_final',
+    quantilefield: 'prcdisabled_final', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.prc_nonengprof = {
+    id: 'prc_nonengprof',
+    title: "Limited English Proficient Percent of Population",
+    scoresource: 'indicatordata', scorefield:  'prc_nonengprof_final',
+    quantilefield: 'prc_nonengprof_final', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.prc_caraccess_final = {
+    id: 'prc_caraccess_final',
+    title: "Percent of Population with Vehicle Access",
+    scoresource: 'indicatordata', scorefield:  'prc_caraccess_final',
+    quantilefield: 'prc_caraccess_final', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.prc_pov_final = {
+    id: 'prc_pov_final',
+    title: "Percent of the Population in Poverty",
+    scoresource: 'indicatordata', scorefield:  'prc_pov_final',
+    quantilefield: 'prc_pov_final', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.prc_youth_final = {
+    id: 'prc_youth_final',
+    title: "Youth Percent of Population",
+    scoresource: 'indicatordata', scorefield:  'prc_youth_final',
+    quantilefield: 'prc_youth_final', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.pollvoter_dens = {
+    id: 'pollvoter_dens',
+    title: "2016 Polling Place Voter Percentage",
+    scoresource: 'indicatordata', scorefield:  'pollvoter_dens',
+    quantilefield: 'pollvoter_dens', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.popdens = {
+    id: 'popdens',
+    title: "Population Density (per sq km)",
+    scoresource: 'indicatordata', scorefield:  'popdens',
+    quantilefield: 'popdens', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'integer',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.vbm_rate_tot = {
+    id: 'vbm_rate_tot',
+    title: "2016 Vote by Mail Rate (Total)",
+    scoresource: 'indicatordata', scorefield:  'vbm_rate_tot',
+    quantilefield: 'vbm_rate_tot', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.vbm_rate_asn = {
+    id: 'vbm_rate_asn',
+    title: "2016 Vote by Mail Rate (Asian-American)",
+    scoresource: 'indicatordata', scorefield:  'vbm_rate_asn',
+    quantilefield: 'vbm_rate_asn', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.vbm_rate_lat = {
+    id: 'vbm_rate_lat',
+    title: "2016 Vote by Mail Rate (Latino)",
+    scoresource: 'indicatordata', scorefield:  'vbm_rate_lat',
+    quantilefield: 'vbm_rate_lat', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.vbm_rate_youth = {
+    id: '2016 vbm_rate_youth',
+    title: "2016 Vote by Mail Rate (Youth)",
+    scoresource: 'indicatordata', scorefield:  'vbm_rate_youth',
+    quantilefield: 'vbm_rate_youth', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.prc_black = {
+    id: 'prc_black',
+    title: "African-American Percent of Population",
+    scoresource: 'indicatordata', scorefield: 'prc_black',
+    quantilefield: 'prc_black', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.prc_asian = {
+    id: 'prc_asian',
+    title: "Asian-American Percent of Population",
+    scoresource: 'indicatordata', scorefield: 'prc_asian',
+    quantilefield: 'prc_asian', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.prc_latino = {
+    id: 'prc_latino',
+    title: "Latino Percent of Population",
+    scoresource: 'indicatordata', scorefield: 'prc_latino',
+    quantilefield: 'prc_latino', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
+DATA_LAYERS.prc_white = {
+    id: 'prc_white',
+    title: "White Percent of Population",
+    scoresource: 'indicatordata', scorefield: 'prc_white',
+    quantilefield: 'prc_white', quantilecolors: CRITERIA_COLOR_RAMP, breaksource: 'indicatordata', // because fillColor == quantile
+    legendformat: 'percent',
+    radiogroup: 'tractchoropleths',
+};
   DATA_LAYERS.poi_govish = {
       id: 'poi_govish',
       title: "Points of Interest (Government)",
@@ -449,20 +449,29 @@ const PARTICIPATING_COUNTIES = [
           DATA_LAYERS.additional_sites_model, DATA_LAYERS.additional_sites_distance,
       ],
       sitingcriteria: [
-          DATA_LAYERS.transit_stops,
-          DATA_LAYERS.cvapdens, DATA_LAYERS.job_dens,
-          DATA_LAYERS.tot_elignonreg_prc,
-          DATA_LAYERS.prcdisabled, DATA_LAYERS.prc_nonengprof, DATA_LAYERS.prc_caraccess_final, DATA_LAYERS.prc_pov_final, DATA_LAYERS.prc_youth_final,
-          DATA_LAYERS.pollvoter_dens,
-          DATA_LAYERS.popdens,
-          DATA_LAYERS.vbm_rate_tot, DATA_LAYERS.vbm_rate_asn, DATA_LAYERS.vbm_rate_lat, DATA_LAYERS.vbm_rate_youth,
-      ],
-      populationdata: [
-          DATA_LAYERS.prc_black, DATA_LAYERS.prc_asian, DATA_LAYERS.prc_latino, DATA_LAYERS.prc_white,
-      ],
-      pointsofinterest: [
-          DATA_LAYERS.pripoll2020,DATA_LAYERS.poi_govish, DATA_LAYERS.poi_misc, DATA_LAYERS.poi,
-      ],
+        DATA_LAYERS.cvapdens, DATA_LAYERS.job_dens,
+        DATA_LAYERS.tot_elignonreg_prc,
+        DATA_LAYERS.prc_caraccess_final, DATA_LAYERS.prc_pov_final, 
+        DATA_LAYERS.popdens,
+        DATA_LAYERS.pollvoter_dens,
+        DATA_LAYERS.vbm_rate_tot, DATA_LAYERS.vbm_rate_asn, DATA_LAYERS.vbm_rate_lat, DATA_LAYERS.vbm_rate_youth,
+    ],
+    populationdata: [
+        DATA_LAYERS.prc_black, 
+        DATA_LAYERS.prc_asian,
+        DATA_LAYERS.prc_latino, 
+        DATA_LAYERS.prc_white, 
+        DATA_LAYERS.prc_youth_final,
+        DATA_LAYERS.prcdisabled, 
+        DATA_LAYERS.prc_nonengprof, 
+    ],
+    pointsofinterest: [
+        DATA_LAYERS.pripoll2020,
+        DATA_LAYERS.transit_stops,
+        DATA_LAYERS.poi_govish, 
+        DATA_LAYERS.poi_misc, 
+        DATA_LAYERS.poi,
+    ],
   };
 
   DATA_PROFILES.fullmodelDB = {
