@@ -10,6 +10,7 @@
 // outoforder = optional message to display in top-left of county page, indicating that this county data are questionable
 // exceptlayers = skip these layers when loading the data profile, for counties to opt-out from individual layers
 const PARTICIPATING_COUNTIES = [
+    //SSS// PA has 2 classes: fullmodelDB for those counties with dropboxes, and fullmodel for the rest
   { countyfp: "001", name: "Adams", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "003", name: "Allegheny", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   { countyfp: "005", name: "Armstrong", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
